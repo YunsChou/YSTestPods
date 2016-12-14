@@ -13,7 +13,7 @@
 		A753A5D11E0182DC009E318E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A753A5CF1E0182DC009E318E /* Main.storyboard */; };
 		A753A5D31E0182DC009E318E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A753A5D21E0182DC009E318E /* Assets.xcassets */; };
 		A753A5D61E0182DC009E318E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A753A5D41E0182DC009E318E /* LaunchScreen.storyboard */; };
-		A753A5E01E018369009E318E /* UIView+YSFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A753A5DF1E018369009E318E /* UIView+YSFrame.m */; };
+		A753A5E41E018912009E318E /* UIView+YSFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A753A5E31E018912009E318E /* UIView+YSFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		A753A5D21E0182DC009E318E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A753A5D51E0182DC009E318E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A753A5D71E0182DC009E318E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A753A5DE1E018369009E318E /* UIView+YSFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YSFrame.h"; sourceTree = "<group>"; };
-		A753A5DF1E018369009E318E /* UIView+YSFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YSFrame.m"; sourceTree = "<group>"; };
+		A753A5E21E018912009E318E /* UIView+YSFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YSFrame.h"; sourceTree = "<group>"; };
+		A753A5E31E018912009E318E /* UIView+YSFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YSFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		A753A5C51E0182DC009E318E /* TestPodspec */ = {
 			isa = PBXGroup;
 			children = (
-				A753A5DD1E01830B009E318E /* YSPods */,
+				A753A5E11E018912009E318E /* YSPods */,
 				A753A5C91E0182DC009E318E /* AppDelegate.h */,
 				A753A5CA1E0182DC009E318E /* AppDelegate.m */,
 				A753A5CC1E0182DC009E318E /* ViewController.h */,
@@ -83,11 +83,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A753A5DD1E01830B009E318E /* YSPods */ = {
+		A753A5E11E018912009E318E /* YSPods */ = {
 			isa = PBXGroup;
 			children = (
-				A753A5DE1E018369009E318E /* UIView+YSFrame.h */,
-				A753A5DF1E018369009E318E /* UIView+YSFrame.m */,
+				A753A5E21E018912009E318E /* UIView+YSFrame.h */,
+				A753A5E31E018912009E318E /* UIView+YSFrame.m */,
 			);
 			path = YSPods;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			files = (
 				A753A5CE1E0182DC009E318E /* ViewController.m in Sources */,
 				A753A5CB1E0182DC009E318E /* AppDelegate.m in Sources */,
-				A753A5E01E018369009E318E /* UIView+YSFrame.m in Sources */,
+				A753A5E41E018912009E318E /* UIView+YSFrame.m in Sources */,
 				A753A5C81E0182DC009E318E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +323,7 @@
 				A753A5DC1E0182DC009E318E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
