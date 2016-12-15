@@ -1,0 +1,7 @@
+platform:ios, '7.0'
+
+target 'TestPodspec' do
+
+    pod 'Masonry'
+
+end
